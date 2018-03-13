@@ -1,0 +1,336 @@
+body {
+    background: none repeat scroll 0 0 #F6F6F6;
+}
+ 
+#central {
+    background-color: #e7e7f5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 5px #666666;
+    overflow: hidden;
+    padding: 30px 15px 15px;
+    width:900px;
+    margin-bottom:50px;
+    margin-top:50px;
+    margin: 0px auto;
+}
+ 
+.service_category {
+    border: 1px solid #bdbdd9;
+    border-radius: 3px 3px 3px 3px;
+    clear: both;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 0.3em;
+    color:#356fcc;
+    width:280px;
+    padding: 6px;
+}
+ 
+.service_list {
+    background-color:#FFFFFF;
+    border: 1px solid #D0D3D8;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    height: auto;
+    margin-bottom: 0.3em;
+    min-height: 130px;
+    padding: 6px;
+    margin-bottom:10px;
+}
+.service_list  a {
+    color: #2D2D28;
+    font-weight: bold;
+    font-family:Verdana;
+    font-size:16px;
+    text-decoration: underline;
+}
+ 
+.service_list a:hover{
+    color:#2d2d28;
+    outline:0;
+    text-decoration:none;
+    font-weight: bold
+}
+.no_noticia {
+    background: #FFFFFF url(images/admiracion.png) no-repeat scroll 600px;
+    border: 1px solid #D0D3D8;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    height: auto;
+    margin-bottom: 0.3em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
+    text-align:left;
+    color:#FF0000;
+    min-height: 130px;
+    padding: 6px;
+    margin-bottom:10px;
+}
+.center_block {
+    float: left;
+    width: 98%;
+}
+.center_block h3 {
+   margin-top:-20px;
+}
+.product_desc {
+    font-size: 0.92em;
+    margin-bottom: 0;
+    font-family:Verdana;
+    font-size:14px;
+    font-weight:bold;
+    text-align: justify;
+}
+.product_img_link img{
+    border:none;
+    float: left;
+    margin-right: 0.9em;
+}
+ 
+.service_list img{width:129px; height:104px;}
+.delete {
+    cursor: pointer;
+    margin-left: 800px;
+ 
+}
+ 
+.info, .correcto, .ojo, .error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    text-align:left;
+    width:auto;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('images/info.jpg');
+}
+.correcto {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('images/correcto.jpg');
+}
+.ojo {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('images/ojo.JPG');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('images/error.jpg');
+}
+ 
+ 
+//*ingresar noticia*//
+input.text, input.submit{
+    width: 70%;
+    background: #171717 url(img/search.png) no-repeat scroll right 2px;
+    padding: 8px;
+    color: #8c8c8c;
+    border: 1px solid #393939;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    font-size: 16px;
+}
+input.text.active{
+    background: #343434 url(img/search.png) no-repeat scroll right -43px;
+    border-color: #000;
+    color: #fff;
+}
+input.submit{
+    width: auto !Important;
+    background: #f5f5f5;
+    color: #000;
+    border-color: #c8c8c8;
+    padding: 5px;
+    margin-top: 0.5em;
+}
+.requisites{
+    padding: 0 2px 0 2px;
+}
+.requisites.error{
+    text-decoration: underline;
+    background: #fff8cc;
+    color: #171717;
+}
+input.error{
+    background: #432323;
+    border-color: #171717;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0pt;
+}
+strong{
+    font-weight: 700;
+}
+caption, th, td{
+    font-weight:normal;
+    text-align:left;
+}
+blockquote:before, blockquote:after, q:before, q:after{
+    content:"";
+}
+blockquote, q{
+    quotes:"" "";
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    padding: 7px 3px 0 4px;
+    font-size: 11px;
+}
+select{
+    font-size: 11px;
+    color: #888888;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #CAD2CE;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+    list-style-position: outside;
+}
+a{
+    cursor: pointer;
+    color: #296ba5;
+    text-decoration: none;
+    outline: none !Important;
+}
+html,body{
+    height:100%;
+}
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    line-height: 0;
+}
+.clearfix{
+    overflow: hidden;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.italic{
+    font-style: italic;
+}
+.info_general {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#CCCCCC;
+    text-decoration:none;
+    font-size:13px;
+    margin-left: 650px;
+ 
+}
+.info_categoria {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666666;
+    text-decoration:none;
+    display:inline;
+    font-size:15px;
+    margin-left: 550px;
+}
+ 
+/******* /GENERAL RESET *******/
+ 
+/******* CONTENT *******/
+.wrapper{
+    width: 640px;
+    margin: 0pt auto;
+    padding-top: 10px;
+}
+h1{
+    color: #fff;
+    font-size: 26px;
+    line-height: 3em;
+}
+label{
+    display: block;
+    color: #00FF99;
+    line-height: 2em;
+    font-size: 14px;
+}
+form label{
+    color: #666666;
+    line-height: 2em;
+    font-size: 17px;
+}
+ 
+.section{
+    margin-bottom: 25px;
+}
+input.text, input.submit{
+    width: 80%;
+    background: #B3D5D9;
+    padding: 8px;
+    color: #000099;
+    border: 1px solid #393939;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    font-size: 16px;
+}
+input.text.active{
+    background: #a399a3;
+    border-color: #000;
+    color: #fff;
+}
+/** boton enviar **/
+input.submit{
+    width: auto !Important;
+    background: #c4bac4;
+    color: #000;
+    border-color: #c8c8c8;
+    padding: 5px;
+    margin-top: 0.5em;
+    cursor:pointer;
+}
+.requisites{
+    padding: 0 2px 0 2px;
+}
+/**error de enfoque rojo y blanco en texto**/
+.requisites.error{
+    text-decoration: underline;
+    background: #fa0000;
+    color: #ffffff;
+    font-size:17px;
+    font-family: "Times New Roman", Times, serif;
+}
+/** error de enfoque rojo y blanco en input**/
+input.error{
+    color: #D8000C;
+    background: #FFBABA url(images/error.jpg) no-repeat scroll right ;
+    border-color: #D8000C;
+}
+ 
+SELECT {font-size:16px;
+        background:#CCCCCC;
+        color:#0066FF;
+        font-family:"Times New Roman", Times, serif;
+        }
